@@ -1,0 +1,21 @@
+#heading 
+{
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;   
+}
+.footer
+{
+    margin-top: 550px;
+    width: 100%;
+}
+canvas
+{
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
